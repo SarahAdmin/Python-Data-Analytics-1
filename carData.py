@@ -1,7 +1,7 @@
 import pandas as pd 
 
 myData2 = { 
-'Make': ["Toyata","Ford","Volkswagen"],
+'Make': ["Toyota","Ford","Volkswagen"],
 'Model':["Yaris,","Fiesta","T-Cross"], 
 'Colour':["Red","Blue","Black"], 
 'No_of_Seats':[5,5,5], 
