@@ -8,4 +8,4 @@ myData2 = {
 'Year':[2019,2024,2020]
 }
 myVar1 = pd.DataFrame(myData2) 
-print(myVar1)
+print(myVar1.loc[0])
