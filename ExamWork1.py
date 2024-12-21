@@ -6,7 +6,7 @@ StudentData1 = {"Name":['Lee Cox','Matt Bond','Lemon Jelly','Marcellina Adams','
                 "Subject":['English','Maths','English','Maths','English','Maths'],
                 "Passed":[True,True,True,False,False,True]
               }
-StudentData2 = { "Retake?": [False,False,False,True,True]
+StudentData2 = { "Retake?": [False,False,False,True,True,False]
              } 
 
 Variables2 = pd.DataFrame(StudentData1) 
