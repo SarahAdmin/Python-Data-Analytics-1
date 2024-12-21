@@ -5,5 +5,11 @@ myData2 = {
   'Product':['Desk','Desk','Chair','Shelf','Bookshelf','Lamp'],
   'Order_ID':[1,2,3,4,5,6]
 }
+shop1 = { 
+      'Price':[120.00,120.00,10.00,65.84,200.50,30.59], 
+      'Delivery':[False,True,False,True,True,True]
+}
 myVariables = pd.DataFrame(myData2) 
-print(myVariables)
+MyVar2 = pd.DataFrame(shop1) 
+DataFour = myVariables.join(MyVar2)
+print(DataFour)
