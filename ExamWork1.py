@@ -11,7 +11,7 @@ StudentData2 = { "Retake?": [False,False,False,True,True,False]
 
 
 Variables2 = pd.DataFrame(StudentData1) 
-StudentData1.insert(1,"Course", ["L1 Media","L1 ICT","L1 Beauty","L1 ICT","L1 ICT","L1 Media"])
+Variables2.insert(1,"Course", ["L1 Media","L1 ICT","L1 Beauty","L1 ICT","L1 ICT","L1 Media"])
 df3 = pd.DataFrame(StudentData2) 
 Results  = Variables2.join(df3)
 print(Results)
