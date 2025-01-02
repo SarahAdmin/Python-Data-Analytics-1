@@ -7,5 +7,10 @@ myData2 = {
 'No_of_Seats':[5,5,5], 
 'Year':[2019,2024,2020]
 }
+myD1 { 
+"Type of Petrol": ["Unleaded","Unleaded","Unleaded"]
+}
 myVar1 = pd.DataFrame(myData2) 
-print(myVar1.loc[0])
+myVar2 = pd.DataFrame(myD1) 
+myCars = myVar1.join(myVar2)
+print(myCars)
