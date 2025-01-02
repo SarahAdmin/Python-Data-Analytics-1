@@ -7,7 +7,7 @@ myData2 = {
 'No_of_Seats':[5,5,5], 
 'Year':[2019,2024,2020]
 }
-myD1 { 
+myD1  = { 
 "Type of Petrol": ["Unleaded","Unleaded","Unleaded"]
 }
 myVar1 = pd.DataFrame(myData2) 
