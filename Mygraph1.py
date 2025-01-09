@@ -6,10 +6,9 @@ import pandas as pd
 import matplotlib,pyplot as plt 
 
 latedf = pd.read_csv('CSV_HMCTS_management_information_Nov23toNov24.csv')
+newlatedf = latedf.drop(columns=["Month"])
 
-latedf.plot() 
+newlatedf.plot() 
 
 plt.show()
 
-plt.savefig(sys.stdout.buffer) 
-sys.stdout.flush()
