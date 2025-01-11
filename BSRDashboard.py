@@ -1,0 +1,16 @@
+import pandas as pd 
+bsr_df = pd.read_csv('BSR-Contact-BSR-KPIs.csv')
+print(bsr_df.to_string()) 
+average1 = bsr_df["Very satisfied"].mean() 
+average2 = bsr_df["Satisfied"].mean()
+average3 = bsf_df["Neither satisfied nor disastified"].mean() 
+average4 = bsf_df["Disatisfied"].mean()
+average5 = bsf_df["Very disatisfied"].mean() 
+customerFac = bsf_df["Customer Satisfaction (out of 5)"].mean()
+
+print(f"The Average score of Very Satisfied is {average1}")
+print(f"The Average score of Satisfied is {average2}")
+print(f"The Average score of Neither satisfied nor disatified is {average3}")
+print(f"The Average score of disatisfied is {average4}")
+print(f"The Average score of Very disatisfied is {average5}")
+print(f"The Average score of Customer Satisfaction is {CustomerFac}")
