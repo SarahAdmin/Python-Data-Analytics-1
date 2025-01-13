@@ -16,3 +16,4 @@ Variables2.insert(1,"Course", ["L1 Media","L1 ICT","L1 Beauty","L1 ICT","L1 ICT"
 df3 = pd.DataFrame(StudentData2) 
 Results  = Variables2.join(df3)
 print(Results)
+
