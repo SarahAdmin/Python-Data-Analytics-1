@@ -1,5 +1,5 @@
 import pandas as pd 
-hdf = pd.read_csv('03 - June.csv')
+hdf = pd.read_csv('03 - June.csv', encoding='latin-1')
 print(hdf.to_string()) 
 total_amount = hdf["Amount"].sum() 
 average_amount = hdf["Amount"].mean() 
