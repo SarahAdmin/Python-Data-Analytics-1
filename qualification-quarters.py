@@ -17,6 +17,6 @@ print(f"The average result of fourth quarter of 2023 is {average_quarter_4_2023}
 print(f"The average result of first quarter of 2024 is {average_quarter_1_2024}.")
 print(f"The average result of second quarter of 2024 is {average_quarter_2_2024}.")
 print(f"The average result of third quarter of 2024 is {average_quarter_3_2024}.")
-v
+
 
 
