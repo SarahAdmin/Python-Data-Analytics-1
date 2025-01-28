@@ -1,0 +1,67 @@
+[
+    {
+        "'coursecode'": "BNK",
+        "'course_name'": "Banking",
+        "'duration'": "4"
+    },
+    {
+        "'coursecode'": "BNS",
+        "'course_name'": "Business",
+        "'duration'": "4"
+    },
+    {
+        "'coursecode'": "CBR",
+        "'course_name'": "Cyber Secruity",
+        "'duration'": "3"
+    },
+    {
+        "'coursecode'": "CGP",
+        "'course_name'": "Computer Games Programming",
+        "'duration'": "3"
+    },
+    {
+        "'coursecode'": "CHE",
+        "'course_name'": "Chemical Engineering",
+        "'duration'": "3"
+    },
+    {
+        "'coursecode'": "CSC",
+        "'course_name'": "Computer Science",
+        "'duration'": "3"
+    },
+    {
+        "'coursecode'": "EYS",
+        "'course_name'": "Early Years Education",
+        "'duration'": "3"
+    },
+    {
+        "'coursecode'": "FIC",
+        "'course_name'": "Accounting",
+        "'duration'": "4"
+    },
+    {
+        "'coursecode'": "FST",
+        "'course_name'": "Film Studies",
+        "'duration'": "3"
+    },
+    {
+        "'coursecode'": "LLW",
+        "'course_name'": "Law",
+        "'duration'": "3"
+    },
+    {
+        "'coursecode'": "MST",
+        "'course_name'": "Media Studies",
+        "'duration'": "3"
+    },
+    {
+        "'coursecode'": "PMR",
+        "'course_name'": "Pharmacy",
+        "'duration'": "4"
+    },
+    {
+        "'coursecode'": "SSC",
+        "'course_name'": "Sport Science",
+        "'duration'": "3"
+    }
+]
